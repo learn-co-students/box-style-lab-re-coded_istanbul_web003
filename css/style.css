@@ -5,6 +5,8 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background: url(../images/white-wood.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 .container, h1 {
@@ -23,18 +25,23 @@ h4 {
 }
 
 .amiable {
-  border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
-  background-color: #44cc66;
+  border: 1px solid hsl(135, 67%, 40%);
+  box-shadow:  -1px 1px hsl(135, 67%, 40%), -2px 2px hsl(135, 67%, 40%), -3px 3px hsl(135, 67%, 40%), -4px 4px hsl(135, 67%, 40%), -5px 5px hsl(135, 67%, 40%);
+  background-color: hsl(135, 57%, 53%);
+  
 
 }
 
 .indifferent {
-  background-color: #dddd22;
+  border: 1px solid hsl(60, 67%, 40%);
+  box-shadow:  -1px 1px hsl(60, 67%, 40%), -2px 2px hsl(60, 67%, 40%), -3px 3px hsl(60, 67%, 40%), -4px 4px hsl(60, 67%, 40%), -5px 5px hsl(60, 67%, 40%);
+  background-color: hsl(60, 73%, 50%);
 }
 
 .dubious {
-  background-color: #dd4444;
+  border: 1px solid hsl(0, 67%, 40%);
+  box-shadow:  -1px 1px hsl(0, 67%, 40%), -2px 2px hsl(0, 67%, 40%), -3px 3px hsl(0, 67%, 40%), -4px 4px hsl(0, 67%, 40%), -5px 5px hsl(0, 67%, 40%);
+  background-color: hsl(0, 69%, 57%);
 }
 
 .column {
@@ -53,4 +60,12 @@ h4 {
 
 .large {
   width: 303%;
+}
+.small, .med, .large {
+  border: 4px solid hsl(0, 0%, 40%);
+  box-sizing: border-box;
+}
+
+h4 {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.452))
 }
