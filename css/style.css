@@ -11,8 +11,9 @@ body, html {
   width: 80%;
   max-width: 600px;
   min-width: 400px;
-  padding: 10px;
   margin: 10px auto;
+
+  padding: 10px;
 }
 
 h4 {
