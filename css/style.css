@@ -24,7 +24,7 @@ h4 {
 
 .amiable {
   border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #68bf7e, -5px 5px #22aa44;
   background-color: #44cc66;
 
 }
@@ -48,9 +48,9 @@ h4 {
 }
 
 .med {
-  width: 203.5%;
+  width: 350px;
 }
 
 .large {
-  width: 303%;
+  width: 500px;
 }
